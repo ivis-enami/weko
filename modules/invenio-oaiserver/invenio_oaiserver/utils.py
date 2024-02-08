@@ -239,6 +239,7 @@ def get_index_state():
 def is_output_harvest(path_list, index_state):
     def _check(index_id):
         print('test')
+        print('test')
         if index_id in index_state:
             if not index_state[index_id]['parent'] \
                     or index_state[index_id]['parent'] == '0':
